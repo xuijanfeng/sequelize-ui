@@ -1,4 +1,4 @@
-FROM node:10.16.3
+FROM node:10.16.3-buster-slim
 COPY . /app/
 WORKDIR /app
 VOLUME /tmp
